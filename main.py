@@ -75,7 +75,7 @@ def search(query):
 
 def long_poll_refresh():
     print('[LongPollProvider]Refreshing longpoll...')
-    longpoll_data = api.groups.getLongPollServer(group_id=181748240)
+    longpoll_data = api.groups.getLongPollServer(group_id=)
     longpoll_key = longpoll_data['key']
     longpoll_server = longpoll_data['server']
     longpoll_ts = longpoll_data['ts']
